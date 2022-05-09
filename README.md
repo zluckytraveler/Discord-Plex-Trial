@@ -1,6 +1,7 @@
 # DISCORD PLEX TRIAL BOT
 A Discord bot for sending Plex invites and removing users from the server after the trial period.
-
+<br />
+<br />
 # HOW IT WORKS
 The bot will DM any user who has a specfic role asking the user to reply with their Plex email address. When a user replies with their email address the bot will automtically send the user an invite to your Plex server. Once the trial period has ended the bot will automatically remove the user from the Plex server. All trials begin from the time the invite was sent.
 
@@ -25,7 +26,7 @@ You can set custom messages that the bot will DM user with.
 - When an invite has successfully been sent after replyig with a confirmed Plex email address.
 - When the users trial has ended.
 <br />
-<br />
+
 # SETUP
 
 ## <ins>STEP 1</ins>
