@@ -36,6 +36,7 @@ Download this repository [HERE](https://github.com/zluckytraveler/discord-hierar
 <br />
 ## <ins>STEP 2</ins>
 Learn how to create a <ins>Discord Bot</ins> and find a <ins>Discord ID</ins>.<br />
+
 If you already know how to do this continue to STEP 3.
 
 ### DISCORD BOT
