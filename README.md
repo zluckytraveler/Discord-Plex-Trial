@@ -58,11 +58,19 @@ If you already know how to do this continue to STEP 3.
 <br />
 
 ## <ins>STEP 3</ins>
-Add your Bot Token, Plex credentials, Discord ID's, and configure your settings in `config.json`, and save the file.
+Configure `config.json` and save the file.
 
-The Discord role is the role which a user must have in order for the bot to DM the user asking for them to reply with their Plex email address.
-
-The Cooldown Period and Trial Period are set for a length of time in hours. 
+`token` = your custom discord bot token<br />
+`plex_user` = your plex username<br />
+`plex_pass` = your plex password<br />
+`admin_channel_id` = channel id of where all bot actions are logged<br />
+`guild_id` = your discord servers id<br />
+`role_name` = the role which a user must have for the bot to DM the user (do not add @)<br />
+`cooldown_period` = an integer value for the length of time in hours<br />
+`trial_period` =  an integer value for the length of time in hours<br />
+`deny_message` = when requesting a trial before the cooldown period has ended<br />
+`success_message` = when an invite has successfully been sent<br />
+`end_message` = when a users trial has ended
 <br />
 <br />
 <br />
