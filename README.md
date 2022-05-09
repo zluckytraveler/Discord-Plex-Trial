@@ -42,11 +42,14 @@ If you already know how to do this continue to STEP 3.
 1. Go to [Discord Developer](https://discord.com/developers)
 2. Create a Application.
 3. Create a Bot.
-4. Enable intents for the folowing settings: **PRESENCE INTENT, SERVER MEMBERS INTENT, MESSAGE CONTENT INTENT**
-5. Create a token for the first time by selecting "Reset Token". Copy the token and save it, you will need it later on.
-6. Select **URL Generator** located under **OAuth2**, then enable **bot** under Scopes, followed by **Administator** for Permissions.
-7. Copy the generated url at he bottom of the page, and paste it into your browsers address bar.
-8. Follow the Discord popup steps for inviting the bot to your Discord server.
+4. Enable intents for the folowing settings: 
+- **PRESENCE INTENT
+- **SERVER MEMBERS INTENT
+- **MESSAGE CONTENT INTENT**
+6. Create a token for the first time by selecting "Reset Token". Copy and save the token, you will need it later.
+7. Under **OAuth2** select **URL Generator**, then under Scopes enable **bot**, and under Permissions enable **Administator**.
+8. Copy the generated url at he bottom of the page, and paste it into your browsers address bar.
+9. Follow the Discord popup steps for inviting the bot to your Discord server.
 
 ### DISCORD ID
 1. Login to your Discord Account.
