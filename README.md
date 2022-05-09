@@ -14,6 +14,12 @@ You can set the bot to log all actions to a specified channle of your choice
 
 ### DATABASE
 There is a sqlite database file so you can view and make modifications. This is helpful in case a user replies with an incorrect email address. Simply remove the users entry from the database, then the user can make a new request for a trial. 
+
+### MESSAGES
+You can set custom messages that the bot will DM user with. 
+- When a user is denied from trying to request another trial before their cooldown period has ended.
+- When an invite has successfully been sent after replyig with a confirmed Plex email address.
+- When the users trial has ended.
 <br />
 <br />
 # SETUP
