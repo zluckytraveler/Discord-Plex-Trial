@@ -12,7 +12,8 @@ There is a cooldown period that you can set, which will allow users to only requ
 ### LOGGING
 You can set the bot to log all actions to a specified channle of your choice
 
-### DATABASE <br />There is a sqlite database file so you can make changes in case there is any user error when replying with an incorrect Plex Email, simply remove the users entry,and the user can then request another trial. 
+### DATABASE
+There is a sqlite database file so you can view and make modifications to the list. This is helpful in case a user replies to the DM with an incorrect email address. Simply remove the users entry from the database, then the user can make a new request for a trial. 
 <br />
 <br />
 # SETUP
