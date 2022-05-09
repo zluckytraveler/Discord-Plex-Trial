@@ -13,7 +13,7 @@ There is a cooldown period that you can set, which will allow users to only requ
 You can set the bot to log all actions to a specified channle of your choice
 
 ### DATABASE
-There is a sqlite database file so you can view and make modifications to the list. This is helpful in case a user replies to the DM with an incorrect email address. Simply remove the users entry from the database, then the user can make a new request for a trial. 
+There is a sqlite database file so you can view and make modifications. This is helpful in case a user replies to the DM with an incorrect email address. Simply remove the users entry from the database, then the user can make a new request for a trial. 
 <br />
 <br />
 # SETUP
