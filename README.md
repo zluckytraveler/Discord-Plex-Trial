@@ -60,20 +60,21 @@ If you already know how to do this continue to STEP 3.
 ## <ins>STEP 3</ins>
 Configure `config.json` and save the file.
 
-`token` = your custom discord bot token<br />
-`plex_user` = your plex username<br />
-`plex_pass` = your plex password<br />
-`admin_channel_id` = channel id of where all bot actions are logged<br />
-`guild_id` = your discord servers id<br />
-`role_name` = the role which a user must have for the bot to DM the user (do not add @)<br />
-`cooldown_period` = an integer value for the length of time in hours<br />
-`trial_period` =  an integer value for the length of time in hours<br />
-`deny_message` = when requesting a trial before the cooldown period has ended<br />
-`success_message` = when an invite has successfully been sent<br />
-`end_message` = when a users trial has ended
+| Command | Description |
+| --- | --- |
+| `token` | Your custom Discord bot token |
+| `plex_user` | Your Plex account username |
+| `plex_pass` | Your Plex account password |
+| `admin_channel_id` | The Discord channel ID of where the bot actions are logged |
+| `guild_id` | Your Discord servers ID |
+| `role_name` | The Discord role a user must have for the bot to DM the user **(do not add @)** |
+| `cooldown_period` | An integer value for the length of time in hours |
+| `trial_period` |  An integer value for the length of time in hours |
+| `deny_message` | The messages sent when a user requests a trial before their cooldown period has ended |
+| `success_message` | The messages sent when a Plex invite has successfully been sent |
+| `end_message` | The messages sent when a users trial has ended |
 <br />
-<br />
-<br />
+
 # INSTALL
 
 ## LOCAL
