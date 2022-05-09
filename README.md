@@ -68,7 +68,7 @@ Configure `config.json` and save the file.
 | `plex_pass` | String | Your Plex account password |
 | `admin_channel_id` | Integer | The Discord channel ID of where the bot actions are logged |
 | `guild_id` | Integer | Your Discord servers ID |
-| `role_name` | String | The Discord role a user must have for the bot to DM the user **(Don't Add @)** |
+| `role_name` | String | The Discord role a user must have for the bot to DM a user **(Don't Add @)** |
 | `cooldown_period` | Integer | An integer value for the length of time in hours |
 | `trial_period` |  Integer | An integer value for the length of time in hours |
 | `deny_message` | String | The messages sent when a user requests a trial before their cooldown period has ended |
