@@ -43,7 +43,7 @@ If you already know how to do this continue to STEP 3.
 2. Create a Application.
 3. Create a Bot.
 4. Enable intents for `PRESENCE INTENT`, `SERVER MEMBERS INTENT`, `MESSAGE CONTENT INTENT`
-6. Create a token by selecting **Reset Token**, then copy and save the token, you will need it later.
+6. Create a token by selecting `Reset Token`, then copy and save the token, you will need it later.
 7. Under `OAuth2` select `URL Generator`, then enable `bot` & `Administator` under `Scopes` & `Permissions`.
 8. Copy the generated url at he bottom of the page, and paste it into your browsers address bar.
 9. Follow the Discord popup steps for inviting the bot to your Discord server.
