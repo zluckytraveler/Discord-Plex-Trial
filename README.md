@@ -61,6 +61,8 @@ If you already know how to do this continue to STEP 3.
 Add your Bot Token, Plex credentials, Discord ID's, and configure your settings in `config.json`, and save the file.
 
 The Discord role is the role which a user must have in order for the bot to DM the user asking for them to reply with their Plex email address.
+
+The Cooldown Period and Trial Period are set for a length of time in hours. 
 <br />
 <br />
 <br />
