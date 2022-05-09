@@ -60,7 +60,7 @@ If you already know how to do this continue to STEP 3.
 ## <ins>STEP 3</ins>
 Configure `config.json` and save the file.
 
-| Command | Description |
+| ATRRIBUTE | DESCRIPTION |
 | --- | --- |
 | `token` | Your custom Discord bot token |
 | `plex_user` | Your Plex account username |
