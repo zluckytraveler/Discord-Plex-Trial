@@ -3,7 +3,7 @@
     "plex_user": "YOUR PLEX USERNAME",
     "plex_pass": "YOUR PLEX PASSWORD",
     "admin_channel_id": 123456789000000000,
-    "guild_id": 000000000000000,
+    "guild_id": 123456789000000000,
     "role_name": "YOUR ROLE NAME",
     "trial_period": 24,
     "cooldown_period": 720,
