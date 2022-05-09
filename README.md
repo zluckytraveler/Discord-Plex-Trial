@@ -10,7 +10,7 @@ Download this repository [HERE](https://github.com/zluckytraveler/discord-hierar
 <br />
 <br />
 ## <ins>STEP 2</ins>
-Learn how to create a <ins>Discord Bot</ins> and find a <ins>Role ID</ins>.<br />
+Learn how to create a <ins>Discord Bot</ins> and find a <ins>Discord ID</ins>.<br />
 If you already know how to do this continue to STEP 3.
 
 ### DISCORD BOT
@@ -23,15 +23,13 @@ If you already know how to do this continue to STEP 3.
 7. Copy the generated url at he bottom of the page, and paste it into your browsers address bar.
 8. Follow the Discord popup steps for inviting the bot to your Discord server.
 
-### DISCORD ROLE ID
+### DISCORD GUILD & CHANNEL ID
 1. Login to your Discord Account.
 2. Select the gear icon to open your user settings.
 3. Select the Advance tab on side bar.
 4. Enable developer mode.
-5. Go to your server and select Server Settings.
-6. Select the Roles setting.
-7. Select the three vertical dots next tot he role name.
-8. Now copy the Role ID.  
+5. Right click on your Guild or Channel.
+8. Now copy the ID.  
 <br />
 
 ## <ins>STEP 3</ins>
