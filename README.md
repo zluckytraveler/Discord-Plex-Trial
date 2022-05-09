@@ -23,7 +23,7 @@ If you already know how to do this continue to STEP 3.
 7. Copy the generated url at he bottom of the page, and paste it into your browsers address bar.
 8. Follow the Discord popup steps for inviting the bot to your Discord server.
 
-### DISCORD GUILD & CHANNEL ID
+### DISCORD ID
 1. Login to your Discord Account.
 2. Select the gear icon to open your user settings.
 3. Select the Advance tab on side bar.
