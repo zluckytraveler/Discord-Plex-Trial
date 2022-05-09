@@ -26,7 +26,7 @@ If you already know how to do this continue to STEP 3.
 ### DISCORD ID
 1. Login to your Discord Account.
 2. Select the gear icon to open your user settings.
-3. Select the Advance tab on side bar.
+3. Select the Advance tab on the side bar.
 4. Enable developer mode.
 5. Right click on your Guild or Channel.
 8. Now copy the ID.  
