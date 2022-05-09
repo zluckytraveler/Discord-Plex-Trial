@@ -1,0 +1,13 @@
+{
+    "token": "YOUR BOT TOKEN",
+    "plex_user": "YOUR PLEX USERNAME",
+    "plex_pass": "YOUR PLEX PASSWORD",
+    "admin_channel_id": 000000000000000000,
+    "guild_id": 000000000000000000,
+    "role_name": "YOUR ROLE NAME",
+    "trial_period": 24,
+    "cooldown_period": 8760,
+    "deny_message": "You have already requested a trial!",
+    "success_message": "Your trial has been sent! Please check your email for the invite.",
+    "end_message": "Thank you for trying out Plex 'N Chill, your trial has ended. To continue streaming, please become a member by visting <#939641904696557598>"
+}
