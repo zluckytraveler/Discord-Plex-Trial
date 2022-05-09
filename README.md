@@ -1,2 +1,2 @@
 # DISCORD PLEX TRIALS
-A Discord bot for sending automated Plex trial invites and remove users from the server after the trial period.
+A Discord bot for sending Plex invites and removing users from the server after the trial period.
