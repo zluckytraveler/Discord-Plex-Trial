@@ -60,19 +60,19 @@ If you already know how to do this continue to STEP 3.
 ## <ins>STEP 3</ins>
 Configure `config.json` and save the file.
 
-| ATRRIBUTE | DESCRIPTION |
-| --- | --- |
-| `token` | Your custom Discord bot token |
-| `plex_user` | Your Plex account username |
-| `plex_pass` | Your Plex account password |
-| `admin_channel_id` | The Discord channel ID of where the bot actions are logged |
-| `guild_id` | Your Discord servers ID |
-| `role_name` | The Discord role a user must have for the bot to DM the user **(do not add @)** |
-| `cooldown_period` | An integer value for the length of time in hours |
-| `trial_period` |  An integer value for the length of time in hours |
-| `deny_message` | The messages sent when a user requests a trial before their cooldown period has ended |
-| `success_message` | The messages sent when a Plex invite has successfully been sent |
-| `end_message` | The messages sent when a users trial has ended |
+| DATA | TYPE | DESCRIPTION |
+| --- | --- | --- |
+| `token` | String | Your custom Discord bot token |
+| `plex_user` | String | Your Plex account username |
+| `plex_pass` | String | Your Plex account password |
+| `admin_channel_id` | Integer | The Discord channel ID of where the bot actions are logged |
+| `guild_id` | Integer | Your Discord servers ID |
+| `role_name` | String | The Discord role a user must have for the bot to DM the user **(do not add @)** |
+| `cooldown_period` | Integer | An integer value for the length of time in hours |
+| `trial_period` |  Integer | An integer value for the length of time in hours |
+| `deny_message` | String | The messages sent when a user requests a trial before their cooldown period has ended |
+| `success_message` | String | The messages sent when a Plex invite has successfully been sent |
+| `end_message` | String | The messages sent when a users trial has ended |
 <br />
 
 # INSTALL
