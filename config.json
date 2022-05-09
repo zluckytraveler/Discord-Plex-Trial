@@ -2,7 +2,7 @@
     "token": "YOUR BOT TOKEN",
     "plex_user": "YOUR PLEX USERNAME",
     "plex_pass": "YOUR PLEX PASSWORD",
-    "admin_channel_id": 0000000000000000,
+    "admin_channel_id": XXXXXXXXXXXXXXX,
     "guild_id": 12345678900000000,
     "role_name": "YOUR ROLE NAME",
     "trial_period": 24,
