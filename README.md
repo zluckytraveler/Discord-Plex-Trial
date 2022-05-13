@@ -17,7 +17,7 @@ You can set the bot to log all actions to a specified channle of your choice
 <br />
 <br />
 ### DATABASE
-There is a sqlite database file so you can view and make modifications. This is helpful in case a user replies with an incorrect email address. Simply remove the users entry from the database, then the user can make a new request for a trial. 
+There is a sqlite database file that will be automat8ically made upon the first trial incite. You can view and make modifications to the file, in case a user replies with an incorrect email address. Simply remove the entry from the database, then the user can make a new request for a trial. 
 <br />
 <br />
 ### MESSAGES
