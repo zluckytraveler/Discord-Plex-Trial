@@ -78,6 +78,31 @@ Configure `config.json` and save the file.
 
 # INSTALL
 
+## DOCKER CLI
+
+Simply run the command.
+
+```docker run --name Plex-Trial --restart=unless-stopped -d -v /PATH TO CONFIG/config.json:/bot/config.json -v /PATH TO DATABASE/users.db:/bot/users.db -d zluckytraveler/discord-plex-trial ```
+<br />
+<br />
+## DOCKER BUILD
+
+### <ins>STEP 1</ins>
+Change the directory to where the files are stored.
+
+```cd <PATH TO DIRECTORY>```
+
+### <ins>STEP 2</ins>
+Build the image. The image name must be all lowercase without any spacing
+
+```docker build -t <YOUR IMAGE NAME> .```
+
+### <ins>STEP 3</ins>
+Start the container by using the Docker run command.
+
+```docker run -d --restart=unless-stopped <YOUR IMAGE NAME>```
+<br />
+<br />
 ## LOCAL
 
 ### <ins>STEP 1</ins>
