@@ -4,9 +4,15 @@ A Discord bot for sending Plex invites and removing users from the Plex server a
 <br />
 # HOW IT WORKS
 The bot will DM any user who has a specfic role asking the user to reply with their Plex email address. When a user replies with their email address the bot will automtically send the user an invite to the Plex server. Once the trial period has ended the bot will automatically remove the user from the Plex server. 
-
-All trials begin from the time the invite was sent, and a user can only request one trial, if they try to request another one, they will recieve a denial message. The bot checks for trials to remove users every 15 minutes, this even includes invites that were sent and not accepted. If you would like to change the timeframe the bot checks for removing trials, you can edit the code `minutes=15` on line 106, to whatever you like whether it be seconds, minutes, hours, days, and the exact amount.
-
+<br />
+<br />
+All trials begin from the time the invite was sent, and a user can only request one trial, if they try to request another one, they will recieve a denial message. The bot checks for trials to remove users every 15 minutes, this even includes invites that were sent and not accepted. 
+<br />
+<br />
+If you want to change the timeframe the bot checks for removing trials, you can edit the code `minutes=15` on line 106. You can change it to any amount of any unit of time you would like. **Examples:** `seconds=30` or `hours=1`
+<br />
+<br />
+<br />
 *Reaction Roles are a great way to fully automate your trials, otherwise if you want to have more control over your invites, you can manually add the role to the user.*
 <br />
 <br />
