@@ -3,13 +3,9 @@ A Discord bot for sending Plex invites and removing users from the Plex server a
 <br />
 <br />
 # HOW IT WORKS
-The bot will DM any user who has a specfic role asking the user to reply with their Plex email address. When a user replies with their email address the bot will automtically send the user an invite to your Plex server. Once the trial period has ended the bot will automatically remove the user from the Plex server. All trials begin from the time the invite was sent.
+The bot will DM any user who has a specfic role asking the user to reply with their Plex email address. When a user replies with their email address the bot will automtically send the user an invite to the Plex server. Once the trial period has ended the bot will automatically remove the user from the Plex server. All trials begin from the time the invite was sent, and trials are only one time use to stop abuse.
 
 *Reaction Roles are a great way to fully automate your trials, otherwise if you want to have more control over your invites, you can manually add the role to the user.*
-<br />
-<br />
-### COOLDOWN
-There is a cooldown period that you can set, which will allow users to only request a trial after the time period has elapsed. This is great to stop abuse.
 <br />
 <br />
 ### LOGGING
@@ -17,13 +13,13 @@ You can set the bot to log all actions to a specified channle of your choice
 <br />
 <br />
 ### DATABASE
-There is a sqlite database file that will be automat8ically made upon the first trial invite. You can view and make modifications to the file, in case a user replies with an incorrect email address. Simply remove the entry from the database, then the user can make a new request for a trial. 
+There is a sqlite database file that will automatically be made upon starting the bot. You can view and make modifications to the file, in case a user replies with an incorrect email address, or you want to make adjustments. Simply remove the entry from the database, then the user can make a new request for a trial. 
 <br />
 <br />
 ### MESSAGES
 You can set custom messages that the bot will DM user with. 
 - When a user is denied from trying to request another trial before their cooldown period has ended.
-- When an invite has successfully been sent after replyig with a confirmed Plex email address.
+- When an invite has successfully been sent after replying with a confirmed Plex email address.
 - When the users trial has ended.
 <br />
 
@@ -69,7 +65,6 @@ Configure `config.json` and save the file.
 | `admin_channel_id` | Integer | The Discord channel ID of where the bot actions are logged |
 | `guild_id` | Integer | Your Discord servers ID |
 | `role_name` | String | The Discord role a user must have for the bot to DM a user **(Don't Add @)** |
-| `cooldown_period` | Integer | An integer value for the length of time in hours |
 | `trial_period` |  Integer | An integer value for the length of time in hours |
 | `deny_message` | String | The messages sent when a user requests a trial before their cooldown period has ended |
 | `success_message` | String | The messages sent when a Plex invite has successfully been sent |
