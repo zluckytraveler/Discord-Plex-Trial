@@ -128,7 +128,7 @@ Install the requirements. <br />
 Run the Bot. <br />
 
 **Mac & Linux** <br />
-```python3 bot.py```
+```python bot.py```
 
 **Windows** <br />
 `py bot.py`
