@@ -98,7 +98,7 @@ async def trialdb(ctx):
     await ctx.send(embed=embed2)
 
 
-@tasks.loop(minutes=60)
+@tasks.loop(minutes=15)
 async def update_users():
     await bot.wait_until_ready()
     while admin_channel is None:
