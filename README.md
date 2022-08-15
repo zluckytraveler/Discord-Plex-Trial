@@ -110,6 +110,10 @@ Start the container by using the Docker run command.
 <br />
 ## LOCAL
 
+### PREREQUISITES
+- Python 3
+- Pip
+
 ### <ins>STEP 1</ins>
 
 Change the directory to where the files are stored.
@@ -128,7 +132,7 @@ Install the requirements. <br />
 Run the Bot. <br />
 
 **Mac & Linux** <br />
-```python bot.py```
+```python3 bot.py```
 
 **Windows** <br />
 `py bot.py`
