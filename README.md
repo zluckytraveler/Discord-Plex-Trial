@@ -120,11 +120,15 @@ Change the directory to where the files are stored.
 
 Install the requirements. <br />
 
-```pip3 install -r requirements.txt```
+```pip install -r requirements.txt```
 
 
 ### <ins>STEP 3</ins>
 
 Run the Bot. <br />
 
+Mac & Linux
 ```python3 bot.py```
+
+Windows
+`py bot.py`
