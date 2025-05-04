@@ -99,10 +99,12 @@ Replace `PATH-TO-CONFIG` & `PATH-TO-DATABASE` with the path to where you stored 
 <br />
 
 **STEPS**
+
 **1.** Change the directory to where you stored the files.
 ```
 cd <PATH-TO-DIRECTORY>
 ```
+<br />
 
 **2.** Install the requirements.
 ```
