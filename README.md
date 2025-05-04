@@ -97,6 +97,7 @@ Replace `PATH-TO-CONFIG` & `PATH-TO-DATABASE` with the path to where you stored 
 - Python 3
 - Pip
 <br />
+
 **STEPS**
 **1.** Change the directory to where you stored the files.
 ```
@@ -108,6 +109,7 @@ cd <PATH-TO-DIRECTORY>
 pip install -r requirements.txt
 ```
 <br />
+
 **3.** Run the Bot.
 
 **Mac & Linux**
