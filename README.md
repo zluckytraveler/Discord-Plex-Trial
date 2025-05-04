@@ -97,21 +97,24 @@ Replace `PATH-TO-CONFIG` & `PATH-TO-DATABASE` with the path to where you stored 
 - Python 3
 - Pip
 
+**STEPS**
+- Change the directory to where you stored the files.
+```
+cd <PATH-TO-DIRECTORY>
+```
 
-**1.** Change the directory to where you saved the files.
+- Install the requirements.
+```
+pip install -r requirements.txt
+```
 
-```cd <PATH TO DIRECTORY>```
-
-
-**2.** Install the requirements.
-
-```pip install -r requirements.txt```
-
-
-**3.** Run the Bot.
+- Run the Bot.
 
 **Mac & Linux**
-```python3 bot.py```
-
+```
+python3 bot.py
+```
 **Windows**
-`py bot.py`
+```
+py bot.py
+```
