@@ -26,8 +26,8 @@ There is a sqlite database file that will automatically be made upon starting th
 <br />
 ### MESSAGES
 You can set custom messages the bot will DM users with. 
-- When a user is denied from trying to request another trial before their cooldown period has ended.
 - When an invite has successfully been sent after replying with a confirmed Plex email address.
+- When a user is denied from trying to request another trial.
 - When the users trial has ended.
 <br />
 
@@ -84,37 +84,34 @@ Configure `config.json` and save the file.
 ## DOCKER
 
 Simply run the command.
-
-```docker run -d  -v /PATH-TO-CONFIG/config.json:/bot/config.json -v /PATH-TO-DATABASE/users.db:/bot/users.db zluckytraveler/discord-plex-trial```
+```
+docker run -d  -v /PATH-TO-CONFIG/config.json:/bot/config.json -v /PATH-TO-DATABASE/users.db:/bot/users.db zluckytraveler/discord-plex-trial
+```
 
 Replace `PATH-TO-CONFIG` & `PATH-TO-DATABASE` with the path to where you stored the files from STEP 1
 <br />
 <br />
 ## LOCAL
 
-### PREREQUISITES
+**PREREQUISITES**
 - Python 3
 - Pip
 
-### <ins>STEP 1</ins>
 
-Change the directory to where the files are stored.
+**1.** Change the directory to where you saved the files.
 
 ```cd <PATH TO DIRECTORY>```
 
-### <ins>STEP 2</ins>
 
-Install the requirements. <br />
+**2.** Install the requirements.
 
 ```pip install -r requirements.txt```
 
 
-### <ins>STEP 3</ins>
+**3.** Run the Bot.
 
-Run the Bot. <br />
-
-**Mac & Linux** <br />
+**Mac & Linux**
 ```python3 bot.py```
 
-**Windows** <br />
+**Windows**
 `py bot.py`
