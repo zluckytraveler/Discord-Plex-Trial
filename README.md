@@ -17,7 +17,7 @@ If you want to change the timeframe the bot checks for removing trials, you can 
 <br />
 <br />
 ### LOGGING
-You can set the bot to log all actions to a specified channle of your choice
+You can set the bot to log all actions to a specified channel of your choice
 <br />
 <br />
 ### DATABASE
@@ -25,7 +25,7 @@ There is a sqlite database file that will automatically be made upon starting th
 <br />
 <br />
 ### MESSAGES
-You can set custom messages that the bot will DM user with. 
+You can set custom messages the bot will DM users with. 
 - When a user is denied from trying to request another trial before their cooldown period has ended.
 - When an invite has successfully been sent after replying with a confirmed Plex email address.
 - When the users trial has ended.
@@ -41,7 +41,7 @@ Download this repository [HERE](https://github.com/zluckytraveler/Discord-Plex-T
 ## <ins>STEP 2</ins>
 Learn how to create a <ins>Discord Bot</ins> and find a <ins>Discord ID</ins>.<br />
 
-If you already know how to do this continue to STEP 3.
+*If you already know how to do this continue to STEP 3.*
 
 ### DISCORD BOT
 1. Go to [Discord Developer](https://discord.com/developers)
@@ -81,31 +81,13 @@ Configure `config.json` and save the file.
 
 # INSTALL
 
-## DOCKER CLI
+## DOCKER
 
 Simply run the command.
 
 ```docker run -d  -v /PATH-TO-CONFIG/config.json:/bot/config.json -v /PATH-TO-DATABASE/users.db:/bot/users.db zluckytraveler/discord-plex-trial```
 
 Replace `PATH-TO-CONFIG` & `PATH-TO-DATABASE` with the path to where you stored the files from STEP 1
-<br />
-<br />
-## DOCKER BUILD
-
-### <ins>STEP 1</ins>
-Change the directory to where the files are stored.
-
-```cd <PATH TO DIRECTORY>```
-
-### <ins>STEP 2</ins>
-Build the image. The image name must be all lowercase without any spacing
-
-```docker build -t <YOUR IMAGE NAME> .```
-
-### <ins>STEP 3</ins>
-Start the container by using the Docker run command.
-
-```docker run -d <YOUR IMAGE NAME>```
 <br />
 <br />
 ## LOCAL
