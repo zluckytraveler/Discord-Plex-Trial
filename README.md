@@ -9,7 +9,7 @@ The bot will send a DM to a user when they receive the specfied role that you se
 All trials begin from the time the invite was sent, and a user can only request one trial, if they try to request another one, they will recieve a denial message. The bot checks for trials to remove users every 15 minutes, this even includes invites that were sent and not accepted. 
 <br />
 <br />
-If you want to change the timeframe the bot checks for removing trials, you can edit the code on line 106 `minutes=15`. You can change it to any amount of any unit of time you would like. **Examples:** `seconds=30` or `hours=1`
+If you want to change the timeframe the bot checks for removing trials, you can edit the code in `bot.py` on line 101 `minutes=15`. You can change it to any unit or amount of time you would like. **Examples:** `seconds=30` or `hours=1`
 <br />
 <br />
 <br />
@@ -96,19 +96,19 @@ Replace `PATH-TO-CONFIG` & `PATH-TO-DATABASE` with the path to where you stored 
 **PREREQUISITES**
 - Python 3
 - Pip
-
+<br />
 **STEPS**
-- Change the directory to where you stored the files.
+**1.** Change the directory to where you stored the files.
 ```
 cd <PATH-TO-DIRECTORY>
 ```
 
-- Install the requirements.
+**2.** Install the requirements.
 ```
 pip install -r requirements.txt
 ```
-
-- Run the Bot.
+<br />
+**3.** Run the Bot.
 
 **Mac & Linux**
 ```
